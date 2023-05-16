@@ -1,0 +1,92 @@
+<!-- Doctype, head, and body of an HTML
+A header section
+Navigation section with links for the site
+A footer with a copyright notice and your name 
+
+A header section with the title for your book review site
+A section for navigation
+A main content section with an unordered list of the top-5 book images (see the images folder)
+Each image should link to their page on Amazon.com or a book review page.-->
+
+<!DOCTYPE HTML>
+<body>
+    <!-- NAVBAR STARTS -->
+    <header>
+        <!-- Top navigation -->
+    <div class="topnav">
+
+    <!-- Centered link -->
+    <div class="topnav-centered">
+        <a class="active" href="index.html">Home</a>    
+    </div>
+  
+    <!-- Left-aligned links (default) -->
+    <a href="#login">Login</a>
+    <a href="#signup">Signup</a>
+  
+    <!-- Right-aligned links -->
+    <div class="topnav-right">
+        <a href="eloquent-ruby.html">Books</a>
+        <a href="#favorites">Favorites</a>
+        <a href="#contactus">Contact Us</a>
+    </div>
+  
+  </div>
+        <h1 id="title">Review Your Favorite Books! </h1>
+        <link rel="stylesheet" href="style.css" /> 
+    </header>
+    <!-- NAVBAR ENDS -->
+<section>
+    <main>
+        <h2>
+            This Month's Most popular Books: 
+        </h2>
+        <ul id="popular">
+            <li>
+                <h3>Confident Ruby</h3>
+                <a href="https://www.amazon.com/Confident-Ruby-Patterns-Joyful-Coding-ebook/dp/B00ETE0D2S">
+                  <img src="images/cover-confident_ruby.jpg" alt="Confident Ruby">
+                </a>
+              </li>
+              <li>
+                <h3>Clean Ruby</h3>
+                <a href="https://www.amazon.com/Clean-Ruby-Crafting-Better-Rubyists-ebook/dp/B0825PGLR2/ref=sr_1_1?crid=3K622H88RR4KI&keywords=clean+ruby&qid=1684189598&s=digital-text&sprefix=clean+ruby%2Cdigital-text%2C293&sr=1-1">
+                  <img src="images/cover-clean_ruby.jpg" alt="Clean Ruby">
+                </a>
+              </li>
+              <li>
+                <h3>Eloquent Ruby</h3>
+                <a href="https://www.amazon.com/Eloquent-Ruby-Addison-Wesley-Professional-ebook/dp/B004MMEJ36/ref=sr_1_1?crid=OSWECOYA0JIO&keywords=eloquent+ruby&qid=1684189615&s=digital-text&sprefix=eloquent+ruby%2Cdigital-text%2C162&sr=1-1">
+                  <img src="images/cover-eloquent_ruby.jpg" alt="Eloquent Ruby">
+                </a>
+              </li>
+              <li>
+                <h3>Ruby Science</h3>
+                <a href="https://www.amazon.com/Practical-Object-Oriented-Design-Agile-Primer/dp/0134456475/ref=lp_6134006011_1_4?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D">
+                  <img src="images/cover-ruby_science.jpg" alt="Ruby Science">
+                </a>
+              </li>
+              <li>
+                <h3>Well Grounded Rubyist</h3>
+                <a href="https://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1617295213/ref=sr_1_1?keywords=well+grounded+rubyist&qid=1684189887&s=books&sr=1-1">
+                  <img src="images/cover-well_grounded_rubyist.jpg" alt="Well Grounded Rubyist">
+                </a>
+              </li>
+            </ul>
+          </section>
+            </li>
+    </main>
+</section>
+
+  <footer class="footer mt-auto py-1 bg-light fixed-bottom">
+    <div>
+      <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; Jennifer Tam &middot; 
+          <a href="https://github.com/JenniferWTam" target="__blank">Github</a> &middot; 
+          <a href="https://linkedin.com/in/jennifer-tam-894a171b7" target="__blank">LinkedIn</a> &middot; 
+          <a href="mailto: jenniferwtam@gmail.com" target="__blank">Contact Me</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
